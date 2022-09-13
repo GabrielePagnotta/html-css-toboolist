@@ -33,11 +33,10 @@ main{
 .box{
     width:70%;
     height:90vh;
-    border:1px solid black;
     margin-left:15%;
     margin-right: 15%;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
     border-radius: 15px 15px 15px 15px;
     background-color: white;
     
@@ -80,10 +79,11 @@ opacity:0.2;
 }
 
 .list{
-font-size: 1.5rem;
+font-size: 1.1rem;
 margin-left: 100px;
-margin-top:50px;
-margin-bottom: 80px;
+margin-top:30px;
+margin-bottom: 30px;
+line-height: 0%;
 
 }
 
@@ -99,26 +99,84 @@ margin-bottom: 80px;
     margin-right: 10px;
 }
 
-.sidebox{
+.sidebox-blue{
 width:20px;
 padding:5px;
 display: inline;
 border-radius: 10px;
 font-size: 15px;
 margin-left: 10px;
-color:aliceblue;
+color:white;
 background-color:#45ABE9 ;
 } 
 
-.sidebox-two{
+.sidebox-violet{
     width:20px;
     padding:5px;
     display: inline;
     border-radius: 10px;
     font-size: 15px;
     margin-left: 10px;
-    color:rgb(0, 0, 0);
+    color:white;
     background-color:#9C72E4;
     }
+
+    .sidebox-green{
+        width:20px;
+    padding:5px;
+    display: inline;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    color:white;
+    background-color:#63C0A9;
+    }
+    
+    .cross{
+    display: inline;
+    width: 30px;
+    height:25px;
+    border: 1px solid #F08E8A;
+    border-radius: 50%;
+    color: #F08E8A;
+    font-size: 15px;
+    line-height: 50px;
+    margin-right: 10px;
+    }
+
+    .sidebox-orange{
+        width:20px;
+    padding:5px;
+    display: inline;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    color:white;
+    background-color:#F29E33;
+    }
+
+    .sidebox-pink{
+        width:20px;
+    padding:5px;
+    display: inline;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    color:white;
+    background-color:#D763A1;
+    }
+
+    .sidebox-lightgreen{
+        width:20px;
+        padding:5px;
+        display: inline;
+        border-radius: 10px;
+        font-size: 15px;
+        margin-left: 10px;
+        color:white;
+        background-color:#B0C925;
+    }
+
+
 
 
