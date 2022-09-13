@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    list-style: none;
+    list-style: none; 
     box-sizing: border-box;
 }
 
@@ -40,6 +40,7 @@ main{
     margin-bottom: 10vh;
     border-radius: 15px 15px 15px 15px;
     background-color: white;
+    
 
 }
 
@@ -80,4 +81,44 @@ opacity:0.2;
 
 .list{
 font-size: 1.5rem;
+margin-left: 100px;
+margin-top:50px;
+margin-bottom: 80px;
+
 }
+
+.check{
+    width: 30px;
+    height:25px;
+    border: 1px solid #87CEBB;
+    border-radius: 50%;
+    color: #87CEBB;
+    font-size: 15px;
+    display: inline;
+    line-height: 50px;
+    margin-right: 10px;
+}
+
+.sidebox{
+width:20px;
+padding:5px;
+display: inline;
+border-radius: 10px;
+font-size: 15px;
+margin-left: 10px;
+color:aliceblue;
+background-color:#45ABE9 ;
+} 
+
+.sidebox-two{
+    width:20px;
+    padding:5px;
+    display: inline;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 10px;
+    color:rgb(0, 0, 0);
+    background-color:#9C72E4;
+    }
+
+
