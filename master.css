@@ -8,6 +8,9 @@
 
 .header {
     width: 100%;
+    /* aggiunto a lezione*/
+    padding:10px;
+    
 
 }
 
@@ -59,11 +62,15 @@ main {
 
 }
 
+button{
+margin-left:5px;
+margin right: 5px;
+}
+
 .nav-box2 {
     width: 120px;
     text-align: center;
     border-radius: 5px;
-    margin-left: 10%;
     margin-top: 2%;
     padding: 1%;
     border: 0.5px solid black;
